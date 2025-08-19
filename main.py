@@ -28,5 +28,5 @@ app.add_middleware(CORSMiddleware,
 async def home():
     return {"message":'welcome to social media'}
 
-if __name__=="__main__":
-    uvicorn.run("main:app",reload=True,port=8000,host="127.0.0.1")
+#if __name__=="__main__":
+#    uvicorn.run("main:app",reload=True,port=8000,host="127.0.0.1")
