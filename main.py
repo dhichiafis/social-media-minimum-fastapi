@@ -7,10 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app=FastAPI(title="a Simple social media clone",
         description='this is a social media clone illustrating a simple crud operations and many to many relationships in the  database and the perfomance of such crud apps',
         version='1.0.0',
-        servers=[{
-            "url":'http://localhost:8000',
-            "description":"Development server"
-        }])
+       ])
 
 
 Base.metadata.create_all(bind=engine)

@@ -7,7 +7,7 @@ from sqlalchemy.orm import DeclarativeBase
 class Base(DeclarativeBase):
     pass 
 
-DB_URL="sqlite:///seconddd4er.db"
+DB_URL="sqlite:///third.db"
 
 engine=create_engine(DB_URL)
 
